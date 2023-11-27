@@ -89,7 +89,7 @@ article div {
   align-items: center;
 }
 article p {
-  text-align: justify;
+  text-align: center;
   width: 75%;
 }
 article button {
@@ -127,9 +127,16 @@ footer .social_media a {
   width: 50px;
   font-size: 20px;
   text-align: center;
+  transition: 0.5s all;
 }
 footer img {
   height: 40px;
+  transition: 0.5s all;
+}
+footer img:hover {
+  transition: 0.5s all;
+  box-shadow: rgba(161, 158, 158, 0.462) 0px 0px 10px 5px;
+  border-radius: 20px;
 }
 footer span {
   width: 33%;
@@ -137,6 +144,12 @@ footer span {
   text-align: center;
   justify-content: center;
   align-items: center;
+}
+footer .text span:hover  {
+  transition: 0.5s all;
+  color: rgb(161, 161, 245);
+  cursor: pointer;
+
 }
 @media (max-width: 1440px) {
   .project_2{
